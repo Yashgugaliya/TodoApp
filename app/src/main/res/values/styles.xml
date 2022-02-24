@@ -1,0 +1,17 @@
+<resources>
+
+    <style name="ShapeAppearance.Neumorph.CardView" parent="">
+        <item name="neumorph_cornerFamily">rounded</item>
+        <item name="neumorph_cornerSize">15dp</item>
+    </style>
+
+    <style name="Widget.Neumorph.CardView" parent="android:Widget">
+        <item name="android:padding">@dimen/design_default_shadow_padding</item>
+        <item name="android:stateListAnimator">@animator/button_state_list_anim_neumorph</item>
+        <item name="neumorph_shadowElevation">6dp</item>
+        <item name="neumorph_shadowColorLight">#009DD2FF</item>
+        <item name="neumorph_shadowColorDark">#D89DD2FF</item>
+        <item name="neumorph_shapeType">flat</item>
+        <item name="neumorph_shapeAppearance">@style/ShapeAppearance.Neumorph.CardView</item>
+    </style>
+</resources>
